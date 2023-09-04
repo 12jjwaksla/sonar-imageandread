@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from PIL import Image
 import math
 import binascii
@@ -27,7 +27,7 @@ for i in range (0,Height):#像素是竖着排列的
        # im.putpixel((j,i),int(rgbdata[6*k,6*k+2]),16),int(rgbdata[6*k+2:6*k+4],16),int(rgbdata[6*k+4:6*k+6],16)
         im.putpixel((j, i), (int(rgbdata[6*k:6*k+2],16), int(rgbdata[6*k+2:6*k+4],16), int(rgbdata[6*k+4:6*k+6],16)))#记录第几个数据点
         k=k+1
-=======
+
 from PIL import Image
 import math
 import binascii
@@ -56,5 +56,5 @@ for i in range (0,Height):#像素是竖着排列的
        # im.putpixel((j,i),int(rgbdata[6*k,6*k+2]),16),int(rgbdata[6*k+2:6*k+4],16),int(rgbdata[6*k+4:6*k+6],16)
         im.putpixel((j, i), (int(rgbdata[6*k:6*k+2],16), int(rgbdata[6*k+2:6*k+4],16), int(rgbdata[6*k+4:6*k+6],16)))#记录第几个数据点
         k=k+1
->>>>>>> b8368ea (tijiao)
+
 im.save('test.bmp')

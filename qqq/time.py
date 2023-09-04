@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # -*- coding: utf-8 -*-
 import os,sys,time
 fname=r"D:\01-学习资料\python"
@@ -10,7 +10,7 @@ fname1=r"\t"+time+".txt" #设置根据当前时间动态命名txt文件，注意
 fname+=fname1
 t=open(fname.decode('utf8').encode('gbk'),'w')
 t.write("你好吗111\n")
-=======
+
 # -*- coding: utf-8 -*-
 import os,sys,time
 fname=r"D:\01-学习资料\python"
@@ -22,5 +22,5 @@ fname1=r"\t"+time+".txt" #设置根据当前时间动态命名txt文件，注意
 fname+=fname1
 t=open(fname.decode('utf8').encode('gbk'),'w')
 t.write("你好吗111\n")
->>>>>>> b8368ea (tijiao)
+
 t.close()
