@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # -*- coding: utf-8 -*-
 from PIL import Image
 import math
@@ -8,7 +8,7 @@ data1=data[27:]
 #data2=data1.replace("\n","")
 #data2= data1.encode().replace("\n","")
 #print(data1)
-=======
+
 # -*- coding: utf-8 -*-
 from PIL import Image
 import math
@@ -18,5 +18,5 @@ data1=data[27:]
 #data2=data1.replace("\n","")
 #data2= data1.encode().replace("\n","")
 #print(data1)
->>>>>>> b8368ea (tijiao)
+
 print(data1)

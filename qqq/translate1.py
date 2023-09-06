@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # -*- coding: utf-8 -*-
 from PIL import Image
 import math
@@ -36,7 +36,7 @@ while True:
 f.close()
 
 
-=======
+
 # -*- coding: utf-8 -*-
 from PIL import Image
 import math
@@ -74,4 +74,3 @@ while True:
 f.close()
 
 
->>>>>>> b8368ea (tijiao)

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # -*- coding: UTF-8 -*-
 import binascii
 import struct
@@ -11,7 +11,7 @@ Width=header[32:36]
 Height=header[36:40]
 print(header)
 print(Width)
-=======
+
 # -*- coding: UTF-8 -*-
 import binascii
 import struct
@@ -24,5 +24,5 @@ Width=header[32:36]
 Height=header[36:40]
 print(header)
 print(Width)
->>>>>>> b8368ea (tijiao)
+
 print(Height)
